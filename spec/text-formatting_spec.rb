@@ -28,4 +28,5 @@ RSpec.describe 'index.html' do
     expect(p2).to_not be_nil, "A second <p> tag was not found"
     expect(html_file_contents).to include('</p>'), "Don't forget to include a closing </p>"
   end
+
 end
